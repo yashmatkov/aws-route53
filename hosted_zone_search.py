@@ -1,3 +1,11 @@
+"""
+This script will search through all hosted zones in the account to see if it matched user's output 
+and tell "hosted zone not found" or print the hosted zone name in case of success.
+How to run this script:
+python3 ./<NAME>.py --profile <AWS_PROFILE_NAME>
+"""
+
+#Modules
 import boto3
 import os
 import time
