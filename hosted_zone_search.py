@@ -5,7 +5,7 @@ How to run this script:
 python3 ./<NAME>.py --profile <AWS_PROFILE_NAME>
 """
 
-#Modules
+#Import modules
 import boto3
 import os
 import time
