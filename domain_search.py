@@ -1,3 +1,10 @@
+"""
+This script will search through all registered domains to see if it matched user's output 
+and tell "domain not found" or print the domain name in case of success.
+How to run this script:
+python3 ./<NAME>.py --profile <AWS_PROFILE_NAME>
+"""
+
 #Import modules
 import boto3
 import os
